@@ -42,6 +42,7 @@ LL excrt(){
         if(c%d != 0){//无解
             return -1;
         }
+        
         LL k1=b/d;
         x=qmul(x,c/d,k1);
         x = (x%k1+k1)%k1;

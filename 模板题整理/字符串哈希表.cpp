@@ -12,6 +12,7 @@ ULL givehash(string s){
     }
     return ret;
 }
+
 int main(){
     cin>>n;
 
